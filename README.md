@@ -56,5 +56,16 @@ There are 2 different structures in SDDS;
   There are some conditions on spesific events. Manuelly written and it is written to check if ML Algorithms makes a mistake.
   
   
+ # Interface for Admins
  
+ There is a Dashboard for admins. Admins can add,remove and update data into the Decision Support System 
+ 
+ ![WhatsApp Image 2021-06-23 at 23 55 50](https://user-images.githubusercontent.com/48045619/123182761-c62eb780-d498-11eb-8ac0-c92631674493.jpeg)
+
+# Interface for Users
+
+Users can view Data set and make search about spesific data in dataset. Can see presentation of the Project.
+
+![WhatsApp Image 2021-06-24 at 00 01 50](https://user-images.githubusercontent.com/48045619/123182936-245b9a80-d499-11eb-80da-027e7da622b7.jpeg)
+
   
