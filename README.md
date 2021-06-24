@@ -66,6 +66,6 @@ There are 2 different structures in SDDS;
 
 Users can view Data set and make search about spesific data in dataset. Can see presentation of the Project.
 
-![WhatsApp Image 2021-06-24 at 00 01 50](https://user-images.githubusercontent.com/48045619/123182936-245b9a80-d499-11eb-80da-027e7da622b7.jpeg)
+![WhatsApp Image 2021-06-24 at 03 29 07](https://user-images.githubusercontent.com/48045619/123184508-810c8480-d49c-11eb-8888-68cbdb19e431.jpeg)
 
   
