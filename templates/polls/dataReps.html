@@ -1,0 +1,42 @@
+<br>
+<br>
+<table style="margin: fill">
+    <tbody>
+    <tr>
+        <td style="border: 1px solid #000000;text-align:center;width: 80px">Country</td>
+        <td style="border: 1px solid #000000;text-align:center;width: 80px">Year</td>
+        <td style="border: 1px solid #000000;text-align:center;width: 80px">Month</td>
+        <td style="border: 1px solid #000000;text-align:center;width: 80px">Day</td>
+        <td style="border: 1px solid #000000;text-align:center;width: 80px">Panel Count</td>
+        <td style="border: 1px solid #000000;text-align:center;width: 80px">Under Average</td>
+        <td style="border: 1px solid #000000;text-align:center;width: 80px">Weather</td>
+        <td style="border: 1px solid #000000;text-align:center;width: 80px">Solar Power Consumption</td>
+
+    </tr>
+    {% for o in context %}
+        <tr>
+            <td style="border: 1px solid #000000;text-align:center;width: 80px">{{ o.country }}</td>
+            <td style="border: 1px solid #000000;text-align:center;width: 80px">{{ o.year }}</td>
+            <td style="border: 1px solid #000000;text-align:center;width: 100px">{{ o.month }}</td>
+            <td style="border: 1px solid #000000;text-align:center;width: 80px">{{ o.day }}</td>
+            <td style="border: 1px solid #000000;text-align:center;width: 80px">{{ o.Panel_Count }}</td>
+            <td style="border: 1px solid #000000;text-align:center;width: 80px">
+                {% if o.BelowUnderAVG == 1 %}
+                    Pass
+                {% else %}
+                    Fail
+                {% endif %}</td>
+            <td style="border: 1px solid #000000;text-align:center;width: 50px">
+                {% if o.Weather == 1 %}
+                    Sunny
+                {% else %}
+                    Not sunny
+                {% endif %}
+            </td>
+            <td style="border: 1px solid #000000;text-align:center;width: 100px">{{ o.SolarPV_Consumption }}</td>
+
+        </tr>
+
+    {% endfor %}
+    </tbody>
+</table>
